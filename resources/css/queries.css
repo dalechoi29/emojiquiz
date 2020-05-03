@@ -14,6 +14,8 @@
 
 /* Small tablet to big tablet: from 768 to 1023px*/
 @media only screen and (max-width: 1023px){
+
+    /* Main page */
     body {font-size: 24px; font-weight: 400; }
     .main-nav {display: none;}
 
@@ -40,6 +42,17 @@
     .options {
         margin-bottom: 64px;
     }
+
+    /* Quiz page */
+    .form {
+        margin: 16px 0;
+    }
+
+    input[type=text] {
+        width: 90%;
+        margin: 16px 0;
+    
+
 
 }
 
