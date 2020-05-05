@@ -31,6 +31,17 @@ section {
     padding-top: 450px;
 }
 
+select { 
+    margin-top: 56px;
+    padding: .4em .4em; /* 여백으로 높이 설정 */ 
+    background-color: transparent;
+    /* background: url(https://farm1.staticflickr.com/379/19928272501_4ef877c265_t.jpg) no-repeat 95% 50%; /* 네이티브 화살표 대체 */  */
+    border: 0px solid #999; 
+    border-radius: 0px; /* iOS 둥근모서리 제거 */
+    -webkit-appearance: none; /* 네이티브 외형 감추기 */ 
+    \-moz-appearance: none; 
+    appearance: none; 
+    }
 
 
 /* ------------------ */
@@ -52,8 +63,6 @@ section {
     font-size: 90%;
     line-height: 150%;
 }
-
-
 
 
 /* font settings */
@@ -174,7 +183,12 @@ header{
     margin: 60px 4% 0 24px;   
 }
 
-.quizList p {
+.quizSolve icon {
+    margin: 60px 4% 0 24px;   
+}
+
+
+.quizList sort {
     margin: 60px 4% 0 24px;   
 }
 
