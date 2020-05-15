@@ -345,6 +345,27 @@ input[type=text] {
 /* ------------------ */
 /* random-setting-page */
 /* ------------------ */
+
+.category {
+    display: inline-block;
+}
+
+.category-icon {
+    text-align: center;
+    display: inline;
+    font-size: 300%;
+    padding-bottom: 8px;
+}
+
+.category p{
+    display: block;
+    text-align: center;
+}
+
+.category span-1-of-3 {
+    width: 33.33%
+}
+
 .select-topic {
     display: block;
     margin-top: 10%;
@@ -356,3 +377,4 @@ input[type=text] {
     display: block;
     width: 100%;
 }
+
