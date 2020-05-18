@@ -260,6 +260,33 @@ header{
     padding: 20px 0px 16px;
 }
 
+.scoreBoard {
+    font-family: 'yg-jalnan', sans-serif;
+    width: 100%;
+}
+
+.scoreBoard p {
+    text-align: center;
+    margin: 22px 41px 41px 41px;
+    font-size: 125%;
+}
+
+.actualScore {
+    margin: 0px;
+    text-align: center;
+}
+
+.actualScore h1 {
+    font-size: 375%;
+    display: inline-block;
+}
+
+.actualScore p {
+    margin: 0px;
+    display: inline-block;
+    position: relative;
+}
+
 input[type=text] {
     width: 90%;
     padding: 12px 20px;
