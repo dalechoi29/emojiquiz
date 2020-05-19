@@ -10,6 +10,11 @@
     font-style: normal; 
     }
 
+    @font-face {
+        font-family: 'noto-emoji';
+        src: url('vendors/fonts/NotoColorEmoji.ttf');
+      }
+    
 * {
     margin: 0;
     padding: 0;
@@ -372,6 +377,7 @@ input[type=text] {
 /* ------------------ */
 /* random-setting-page */
 /* ------------------ */
+
 
 .category {
     display: inline-block;

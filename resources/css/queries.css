@@ -22,7 +22,7 @@
 
 
 /* Small tablet to big tablet: from 768 to 1023px*/
-@media only screen and (max-width: 1023px){
+@media only screen and (max-width: 1024px){
 
     /* Main page */
     body {font-size: 24px; font-weight: 400; }
@@ -83,6 +83,11 @@
     }
 
 
+    .category {
+        text-align: center;
+    }
+    
+
 
 
 /* Small phones to small tablets: from 481 to 767px*/
@@ -90,7 +95,13 @@
     body {font-size: 24px; font-weight: 400; }
     .quizSolve {font-size: 20px;}
     .quizList {font-size: 20px;}
-    header{ height: 100vh; }
+    header { height: 100vh; }
+
+    .category p { 
+        font-size: 16px; 
+        margin-top: 12px;
+        text-align: center;
+    }
 
     .icon-right {
         display: inline;
@@ -137,6 +148,7 @@
     .quizList {font-size: 16px;}
     h4 { font-size: 80%;}
 
+  
 
     header{
         background-image: url(img/mobile_note@3x.png);
