@@ -430,6 +430,13 @@ input[type=text] {
     width: 100%;
 }
 
+.right-wrong {
+    margin-top: -16px;
+    text-align: center;
+    font-size: 16px;  
+    display: block;
+}
+
 /* ------------------ */
 /* login-page */
 /* ------------------ */
@@ -440,8 +447,13 @@ input[type=text] {
     font-size: 16px;
 }
 
-/* input[type=email],
-input [type=password] {
+.line {
+    margin: 16px 0;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+/* input [type=password] {
     width: 90%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -450,7 +462,6 @@ input [type=password] {
     border-radius: 8px;
   }
 
-  input[type=email]:focus,
-  input[type=password]:focus {
+  input [type=password]:focus {
     border: 2px solid black;
   } */
