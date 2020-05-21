@@ -232,6 +232,9 @@ header{
     -webkit-overflow-scrolling:touch;
 }
 
+.list-wrapper ul li {
+    text-decoration: none;
+}
 
 .actualQuiz {
     width: 100%;
@@ -432,15 +435,15 @@ input[type=text] {
 
 .right-wrong {
     margin-top: -16px;
+    margin-bottom: 16px;
     text-align: center;
-    font-size: 16px;  
+    font-size: 12px;  
     display: block;
 }
 
 /* ------------------ */
 /* login-page */
 /* ------------------ */
-
 
 .explain-form {
     margin-top: 16px;
