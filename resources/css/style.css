@@ -380,7 +380,8 @@ input[type=text] {
 /* ------------------ */
 
 
-.category {
+.category,
+.category2 {
     display: inline-block;
     text-decoration: none;
     transition-duration: 0.4s;
@@ -393,14 +394,14 @@ input[type=text] {
     padding-bottom: 8px;
 }
 
-.category p{
+.category p {
     display: block;
     text-align: center;
 }
 
 .category:link,
 .category:visited
- {
+{
     /* padding: 12px 30px; */
     background-color: transparent;
     border-radius: 8px;
@@ -416,7 +417,6 @@ input[type=text] {
     background-color: #c7d4fa;
     border-radius: 8px;
 }
-
 
 .select-topic {
     display: block;
@@ -451,6 +451,27 @@ input[type=text] {
     margin: 16px 0;
     width: 100%;
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.login-platform{
+    margin: auto;
+    width: 70%;
+}
+
+.login-platform img {
+    height: 60px;
+    width: auto;
+    margin: 16px;
+}
+
+progress {
+    background-color: #c6c6c6;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 100%;
+    border: 0;
+    height: 18px;
+    border-radius: 9px;
 }
 
 /* input [type=password] {
