@@ -249,12 +249,12 @@ header{
 
 .quizRight {
     width: 100%;
-    padding: 150px 0px 100px;
+    padding: 24% 0 10%;
 }
 
 .quizWrong {
     width: 100%;
-    padding: 180px 0px 100px;
+    padding: 24% 0px 18%;
 }
 
 .quizWrong p {
@@ -263,9 +263,19 @@ header{
     font-size: 200%;
 }
 
+.quizAnswer {
+    width: 100%;
+    padding: 16% 0 16%;
+}
+
 .quizRightOrWrong {
     width: 100%;
-    padding: 20px 0px 16px;
+    padding: 0px 0px 16px;
+}
+
+.quizAnswerHere {
+    width: 100%;
+    padding: 16px 0;
 }
 
 .scoreBoard {
@@ -358,10 +368,7 @@ input[type=text] {
     font-size: 100%;
 }
 
-.btn-half:link,
-.btn-half:visited,
-.btn-half:hover,
-.btn-half:active {
+.btn-half {
     display: inline-block;
     padding: 10px 30px;
     margin: 9px 0;
@@ -371,10 +378,20 @@ input[type=text] {
     border-radius: 8px;
     width: 49.4%;
     border: 2px solid #000;
-    background-color: black;
     color: white;
     font-family: 'yg-jalnan', sans-serif;
     font-size: 100%;
+}
+
+.btn-half:link,
+.btn-half:visited {
+    border: 1px solid #999;
+    background-color: #999;
+}
+.btn-half:hover,
+.btn-half:active {
+    border: 1px solid #000;
+    background-color: #000;
 }
 
 
