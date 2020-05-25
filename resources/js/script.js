@@ -8,7 +8,7 @@ $(document).ready(function () {
 // fadeInDown Animation
     $('.js--wp-1').waypoint(function (direction) {
         $('.js--wp-1').addClass('animated fadeInDown');
-    });
+    }, {offset: '10%'});
 
 // Share
 
