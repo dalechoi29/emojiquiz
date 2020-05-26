@@ -37,11 +37,19 @@ $('a.btn-share').click(function() {
 
   
 // Input 
-    // $(':input[type="submit"]').prop('disabled', true);
-    // $('input[type="text"]').keyup(function() {
-    // if($(this).val() != '') {
-    //     $(':input[type="submit"]').prop('disabled', false);
-    // }
-    // });
+    document.getElementById("answer").addEventListener("keyup", function() {
+        var answerInput = document.getElementById('answer').value;
+        if (answerInput != "") {
+            document.getElementById("answerButton").focus();
+        } else {
+            document.getElementById("answerButton").link();
+        }
+    });
+
+// Like Button
+
+
+// Reaction?
+
 
 });
