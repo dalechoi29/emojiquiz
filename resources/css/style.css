@@ -22,6 +22,10 @@
     scroll-behavior: smooth;
 }
 
+a {
+    text-decoration: none;
+}
+
 html,
 body {
     background-color: white;
@@ -204,6 +208,7 @@ header{
 .icon-right {
     display: inline;
     color: red;
+    cursor: pointer;
     float: right;
 }
 
