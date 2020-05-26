@@ -51,7 +51,7 @@ $('a.btn-share').click(function() {
 
 // Like Button
 $(".icon-right.choose").click(function() {
-    $(this).toggleClass("ion-md-heart-empty ion-md-heart");
+    $(this).toggleClass("ion-md-heart-empty ion-md-heart").addClass('animated bounceIn');
   });
 
 // Reaction?
