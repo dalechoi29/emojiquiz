@@ -37,7 +37,8 @@ $('a.btn-share').click(function() {
 
   
 // Input 
-    document.getElementById("answer").addEventListener("keyup", function() {
+
+    document.getElementById("answer").addEventListener("onkeyup", function() {
         var answerInput = document.getElementById('answer').value;
         if (answerInput != "") {
             document.getElementById("answerButton").focus();
