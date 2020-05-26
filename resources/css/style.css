@@ -203,6 +203,7 @@ header{
 
 .icon-right {
     display: inline;
+    color: red;
     float: right;
 }
 
