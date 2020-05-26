@@ -15,9 +15,7 @@ $(document).ready(function () {
         $(this).toggleClass('active');
     });
 
-
 // Share
-
 function share() {
     if (navigator.share) {
         navigator.share({
@@ -28,7 +26,7 @@ function share() {
             .then(() => console.log('Emoji shared successfully'))
             .catch((error) => console.log('Error sharing', error));
     } else {
-        console.log("Your web browser doesn't support share.");
+        console.log("Web browser doesn't support share.");
         alert("Your web browser doesn't support share.")
     }
 }  
