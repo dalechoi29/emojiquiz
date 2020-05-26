@@ -38,12 +38,14 @@ $('a.btn-share').click(function() {
   
 // Input 
 
-    document.getElementById("answer").addEventListener("onkeyup", function() {
+    document.getElementById("answer").addEventListener("input", function() {
         var answerInput = document.getElementById('answer').value;
         if (answerInput != "") {
-            document.getElementById("answerButton").focus();
+            document.getElementById("answerButton").style.backgroundColor = "black";
+            document.getElementById("answerButton").style.borderColor = "black";
         } else {
-            document.getElementById("answerButton").link();
+            document.getElementById("answerButton").style.backgroundColor = "#999";
+            document.getElementById("answerButton").style.borderColor = "#999";
         }
     });
 

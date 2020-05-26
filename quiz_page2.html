@@ -20,6 +20,9 @@
     rel="stylesheet"
     type="text/css"
   />
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="resources/js/script.js"></script>
 </head>
 
 <body>
@@ -27,7 +30,7 @@
     <nav>
       <div class="row">
         <!-- <a href="#"><img src="Logo image" alt="Hyperhire logo" class="logo"></a> -->
-        <ul class="main-nav">
+       <ul class="main-nav">
           <li><a href="index.html">Home</a></li>
           <li><a href="quiz_page.html">일반 퀴즈</a></li>
           <li><a href="random_setting.html">랜덤 퀴즈</a></li>
@@ -45,15 +48,9 @@
             <p>❄👸👩⛄🧑🦌</p>
           </div>
           <form method="post" action="#" class="contact-form">
-            <input
-              type="text"
-              name="answer"
-              id="answer"
-              placeholder="정답 입력하기"
-              required
-            />
+            <input type="text" name="answer" id="answer" placeholder="정답 입력하기" required>
           </form>
-          <a class="btn btn-full" href="quiz_wrong.html">
+          <a class="btn btn-full" href="#" id="answerButton">
             정답 확인하기
           </a>
         </div>
