@@ -10,6 +10,16 @@ $(document).ready(function () {
         $('.js--ani-2').addClass('animated bounceIn');
     });
 
+// bounce-in(quiz right page)
+    $('.js--ani-3').ready(function (direction) {
+        $('.js--ani-3').addClass('animated heartBeat');
+    });
+
+// bounce-in(quiz wrong page)
+    $('.js--ani-4').ready(function (direction) {
+        $('.js--ani-4').addClass('animated headShake');
+    });
+
 // Multiple select(random quiz setting)
     $('.category').click(function() { 
         $(this).toggleClass('active');
@@ -37,7 +47,6 @@ $('a.btn-share').click(function() {
 
   
 // Input 
-
     document.getElementById("answer").addEventListener("input", function() {
         var answerInput = document.getElementById('answer').value;
         if (answerInput != "") {
@@ -54,7 +63,6 @@ $(".icon-right.choose").click(function() {
     $(this).toggleClass("ion-md-heart-empty ion-md-heart").addClass('animated bounceIn');
   });
 
-// Reaction?
-
+// Reaction? - like
 
 });
