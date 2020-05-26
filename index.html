@@ -5,30 +5,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="세상의 모든 이모지 퀴즈" />
 
-  <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css" />
   <link rel="stylesheet" type="text/css" href="resources/css/style.css" />
   <link rel="stylesheet" type="text/css" href="resources/css/queries.css" />
   <link rel="stylesheet" type="text/css" href="vendors/css/Grid.css" />
   <link rel="stylesheet" type="text/css" href="vendors/css/animate.css" />
+  <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css" />
+
   <link
     href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css"
     rel="stylesheet"
   />
-
-  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
-    crossorigin="anonymous"> -->
   <link
     href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,700&display=swap"
     rel="stylesheet"
     type="text/css"
   />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="vendors/js/jquery.waypoints.min.js"></script>
+  <script src="resources/js/script.js"></script>
 </head>
 
 <body>
   <header id="1">
     <nav>
       <div class="row">
-        <!-- <a href="#"><img src="Logo image" alt="Hyperhire logo" class="logo"></a> -->
         <ul class="main-nav">
           <li><a href="index.html">Home</a></li>
           <li><a href="quiz_page.html">일반 퀴즈</a></li>
@@ -45,9 +45,9 @@
       </h4>
     </div>
 
-    <div class="quiz-kind-box row">
+    <div class="quiz-kind-box row js--ani-1">
       <a href="quiz_page.html">
-        <div class="options col span-1-of-3 js--wp-1">
+        <div class="options col span-1-of-3">
           <div class="emoji-icon">🎨</div>
           <h3>일반 퀴즈</h3>
           <p>
@@ -57,7 +57,7 @@
         </div>
       </a>
       <a href="random_setting.html">
-        <div class="options col span-1-of-3 js--wp-1">
+        <div class="options col span-1-of-3">
           <div class="emoji-icon">🤪</div>
           <h3>랜덤 퀴즈</h3>
           <p>
@@ -67,7 +67,7 @@
         </div>
       </a>
       <a href="signup_page.html">
-        <div class="options col span-1-of-3 js--wp-1">
+        <div class="options col span-1-of-3">
           <div class="emoji-icon">👣</div>
           <h3>내 프로필</h3>
           <p>
@@ -79,9 +79,6 @@
     </div>
   </header>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="vendors/js/jquery.waypoints.min.js"></script>
-  <script src="resources/js/script.js"></script>
 
 </body>
 </html>
