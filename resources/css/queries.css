@@ -83,7 +83,8 @@
     }
 
 
-    .category {
+    .category1,
+    .category2 {
         text-align: center;
     }
     
@@ -97,7 +98,8 @@
     .quizList {font-size: 20px;}
     header { height: 100vh; }
 
-    .category p { 
+    .category1 p,
+    .category2 p { 
         font-size: 16px; 
         margin-top: 12px;
         text-align: center;

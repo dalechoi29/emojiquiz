@@ -21,8 +21,14 @@ $(document).ready(function () {
     });
 
 // Multiple select(random quiz setting)
-    $('.category').click(function() { 
-        $(this).toggleClass('active');
+    $('.category1').click(function() { 
+        $('.category1').removeClass('selected');
+        $(this).addClass('selected');
+    });
+
+    $('.category2').click(function() { 
+        $('.category2').removeClass('selected');
+        $(this).addClass('selected');
     });
 
 // Share

@@ -192,6 +192,10 @@ header{
     margin-right: 10px;
 }
 
+.options p {
+    color: black;
+}
+
 /* ------------------ */
 /* quizSolve-page */
 /* ------------------ */
@@ -415,7 +419,8 @@ input[type=submit] {
 /* ------------------ */
 
 
-.category {
+.category1,
+.category2 {
     display: inline-block;
     text-decoration: none;
     transition-duration: 0.4s;
@@ -428,26 +433,21 @@ input[type=submit] {
     padding-bottom: 8px;
 }
 
-.category p {
+.category1 p,
+.category2 p {
     display: block;
     text-align: center;
     color: black;
 }
 
-.category:visited {
-    background-color: transparent;
-    border-radius: 8px;
-}
-
-.category:focus,
-.category:hover,
-.category:active {
+.category1:hover,
+.category2:hover  {
     background-color: #c7d4fa;
     border-radius: 8px;
 }
 
-.active {
-    background: #c7d4fa;
+.selected {
+    background-color: #c7d4fa;
     border-radius: 8px;
 }
 
